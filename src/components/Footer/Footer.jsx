@@ -144,7 +144,7 @@ export default function Footer() {
               </svg>
               <span className="sr-only">GitHub account</span>
             </Link>
-            <Link to="#" className="text-gray-600">
+            <Link to="#" className="text-gray-500">
               <svg
                 className="w-4 h-4"
                 aria-hidden="true"
