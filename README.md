@@ -1,8 +1,6 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a react router project which uses Tailwind for CSS and react router is implemented here with mulitple pages which are linked with together 
+1) If we add any text in user/... it will be displayed in a tab over user
+2) I have used Outlet in between header and footer which will only load the inner content of the page and not refresh header and footer for every update over the page
+3) There is use of NavLink and Link tags instead of a tag to improve performance 
