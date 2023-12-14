@@ -10,22 +10,7 @@ export default function Home() {
   // }
   return (
     <div className="mx-auto w-full max-w-7xl">
-      <div className=" items-center flex-initial align-middle px-4 text-center">
-        {/* This is displayed text */}
-        <div className=" items-center  text-center align-middle px-4">
-          Enter Text to be displayed in company section
-        </div>
-        {/* INPUT */}
-        <input
-          type="text" id='input1'
-          className=" p-4 border-gray-900 b-5 text-center focus:border-gray-900"
-          placeholder="Hello world "
-        />
-        {/* Button  */}
-        <div>
-          <button onClick={CustomCompany} className='bg-red-600 p-6 rounded-xl text-lg '>Click me</button>
-        </div>
-      </div>
+      
       <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
         <div className="relative z-10 max-w-screen-xl px-4  pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
           <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
