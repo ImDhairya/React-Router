@@ -17,15 +17,20 @@ import {
 } from "react-router-dom";
 
 import { BrowserRouter as Router, Routes } from "react-router-dom";
+import Github from "./components/Github/Github.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route path="" element={<Home />} />
-      <Route path="contact" element={<Contact />}>
-      </Route>
-        <Route path="company" element={<Company />} />
+      <Route path="contact" element={<Contact />} />
+      <Route path="company" element={<Company />} />
       <Route path="about" element={<About />} />
+
+      <Route path="company/" element={<Company />} >
+        <Route path=":company" element = {<Company />} />
+      </Route>
+
       <Route path="user/" element={<User />}>
         <Route path=":userid" element={<User />} />
       </Route>
